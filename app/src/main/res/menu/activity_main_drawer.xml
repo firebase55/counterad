@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/silent"
+            android:icon="@drawable/slmt"
+            android:title="Silent Mode" />
+        <item
+            android:id="@+id/normal"
+            android:icon="@drawable/normal"
+            android:title="Normal mode" />
+
+
+    </group>
+
+    <item android:title="Themes">
+        <menu>
+            <item
+                android:id="@+id/black"
+                android:icon="@drawable/bblck"
+                android:title="Black" />
+            <item
+                android:id="@+id/blue"
+                android:icon="@drawable/bblue"
+                android:title="Blue" />
+            <item
+                android:id="@+id/skyy"
+                android:icon="@drawable/ssky"
+                android:title="Sky Blue" />
+        </menu>
+    </item>
+    <item android:title="Tourch">
+        <menu>
+            <item
+                android:id="@+id/on"
+                android:icon="@drawable/onl"
+                android:title="On Tourch" />
+            <item
+                android:id="@+id/of"
+                android:icon="@drawable/off"
+                android:title="Of Tourch" />
+
+        </menu>
+    </item>
+
+</menu>
